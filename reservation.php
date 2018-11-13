@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
          <link rel="icon" href="images/download.png" type="image/x-icon">
         
-        <!-- Google Fonts -->   
+        <!-- Google Fonts -->	
         <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
         
-        <!-- Bootstrap Stylesheet -->   
+        <!-- Bootstrap Stylesheet -->	
         <link rel="stylesheet" href="css/bootstrap.min.css">
         
         <!-- Font Awesome Stylesheet -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
             
-        <!-- Custom Stylesheets --> 
+        <!-- Custom Stylesheets -->	
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" id="cpswitch" href="css/orange.css">
         <link rel="stylesheet" href="css/responsive.css">
@@ -28,16 +28,16 @@
         <div class="loader"></div>
     
     
-        <!--======== SEARCH-OVERLAY =========-->       
+    	<!--======== SEARCH-OVERLAY =========-->       
         <div class="overlay">
             <a href="javascript:void(0)" id="close-button" class="closebtn">&times;</a>
             <div class="overlay-content">
                 <div class="form-center">
                     <form>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search..." required />
-                                <span class="input-group-btn"><button type="submit" class="btn"><span><i class="fa fa-search"></i></span></button></span>
+                    	<div class="form-group">
+                        	<div class="input-group">
+                        		<input type="text" class="form-control" placeholder="Search..." required />
+                            	<span class="input-group-btn"><button type="submit" class="btn"><span><i class="fa fa-search"></i></span></button></span>
                             </div><!-- end input-group -->
                         </div><!-- end form-group -->
                     </form>
@@ -66,7 +66,7 @@
                                 <!--<li><a href="registration.php"><span><i class="fa fa-plus"></i></span>Sign Up</a></li>-->
                             </ul>
                         </div><!-- end links -->
-                    </div><!-- end columns -->              
+                    </div><!-- end columns -->				
                 </div><!-- end row -->
             </div><!-- end container -->
         </div><!-- end top-bar -->
@@ -80,7 +80,7 @@
                       <span class="icon-bar"></span>                        
                     </button>
                     <div class="header-search hidden-lg">
-                        <a href="javascript:void(0)" class="search-button"><span><i class="fa fa-search"></i></span></a>
+                    	<a href="javascript:void(0)" class="search-button"><span><i class="fa fa-search"></i></span></a>
                     </div>
                      <img src="images/logo.png" class="img-responsive" alt="registration-img">
                     <!--<a href="#" class="navbar-brand"><span><i class="fa fa-plane"></i>STAR</span>TRAVELS</a> -->
@@ -91,13 +91,13 @@
                         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<span><i class="fa fa-angle-down"></i></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="hotel-homepage.php">Hotel Homepage</a></li>
-                            </ul>           
+                            </ul>			
                         </li>
                         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Hotels<span><i class="fa fa-angle-down"></i></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="hotel-hrsc.php" class="list-group-item">HRTSC</a></li>
                                 <li><a href="hotel-tlsc.php" class="list-group-item">TLSC</a></li>
-                            </ul>           
+                            </ul>			
                         </li>
                         <li><a href="javascript:void(0)" class="search-button"><span><i class="fa fa-search"></i></span></a></li>
                     </ul>
@@ -111,7 +111,7 @@
                 <!--<h2 id="web-name"><span><i class="fa fa-plane"></i></span>Star Travel</h2>-->
 
                 <div id="main-menu">
-                    <div class="closebtn">
+                	<div class="closebtn">
                         <button class="btn btn-default" id="closebtn">&times;</button>
                     </div><!-- end close-btn -->
                     
@@ -140,7 +140,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1 class="page-title">Admin Dashboard</h1>
+                    	<h1 class="page-title">Admin Dashboard</h1>
                     </div><!-- end columns -->
                 </div><!-- end row -->
             </div><!-- end container -->
@@ -149,63 +149,68 @@
         
         <!--===== INNERPAGE-WRAPPER ====-->
         <section class="innerpage-wrapper">
-            <div id="dashboard" class="innerpage-section-padding">
+        	<div id="dashboard" class="innerpage-section-padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="dashboard-wrapper">
-                                <div class="row">
+                            	<div class="row">
                                 
-                                    <div class="col-xs-12 col-sm-2 col-md-2 dashboard-nav">
-                                        <ul class="nav nav-tabs nav-stacked text-center">
+                                	<div class="col-xs-12 col-sm-2 col-md-2 dashboard-nav">
+                                		<ul class="nav nav-tabs nav-stacked text-center">
                                             <li><a href="inquiry.php"><span><i class="fa fa-vcard-o"></i></span>Inquiry</a></li>
-                                            <li><a href="reservation.php"><span><i class="fa fa-file"></i></span>Reservation</a></li>
-                                            <li class="active"><a href="#"><span><i class="fa fa-briefcase"></i></span>Accomodation</a></li>
+                                    		<li class="active"><a href="#"><span><i class="fa fa-file"></i></span>Reservation</a></li>
+                                        	<li><a href="accomodation.php"><span><i class="fa fa-briefcase"></i></span>Accomodation</a></li>
                                             <li><a href="payment.php"><span><i class="fa fa-dollar"></i></span>Payment</a></li>
                                             <li><a href="sales.php"><span><i class="fa fa-line-chart"></i></span>Sales</a></li>
                                         </ul>
                                     </div><!-- end columns -->
                                     
                                     <div class="col-xs-12 col-sm-10 col-md-10 dashboard-content">
-                                        <h2 class="dash-content-title">ACCOMODATION</h2>
+                                		<h2 class="dash-content-title">RESERVATION</h2>
                                         <form>
-                                          <div class="form-group right-icon">
+                                        <div class="form-group right-icon">
                                             <select class="form-control">
                                                 <option selected>HOTELS</option>
                                                 <option>HRTSC</option>
                                                 <option>TLSC</option>
                                             </select>
                                         </div>
-
                                         <div class="form-group">
-
-                                         <p>Date</p>
                                         <input type="date" class="form-control dpd2" required/>
-
+                                        <p>All reservations will be displayed on the given date</p>
                                         </div>
                                         </form>   
                                         
                                         <div class="dashboard-listing recent-activity">
-                                            <h3 class="dash-listing-heading">TOTAL ACCOMODATION PER ROOM</h3>
+                                        	<h3 class="dash-listing-heading">HOTEL NAME DEPENDE SA PINILI NG ADMIN SA COMBO BOX</h3>
                                             <div class="table-responsive">
                                                 <table class="table table-hover">
                                                     <tbody>
                                                         <tr>
-                                                        <th>ROOM</th>
-                                                        <th>NO. OF CHECK IN</th>
-                                                        <th>AMOUNT</th>
+                                                        <th>CUSTOMER NAME</th>
+                                                        <th>HOTEL ROOMS</th>
+                                                        <th>REMARKS</th>
                                                         </tr>
                                                         
                                                         <tr>
-                                                            <td class="dash-list-text recent-ac-text">SUPERIOR</td>
-                                                            <td class="dash-list-text recent-ac-text">10</td>
-                                                            <td class="dash-list-text recent-ac-text">35000</td>
+                                                            <td class="dash-list-text recent-ac-text">KATE PANGAN</td>
+                                                            <td class="dash-list-text recent-ac-text">HRTSC ROOM ONE</td>
+                                                            <td class="dash-list-text recent-ac-text"> 
+                                                                <select class="form-control">
+                                                                     <option selected>REMARKS</option>
+                                                                     <option>WAITING FOR PAYMENT</option>
+                                                                     <option>CONFIRMED</option>
+                                                                </select>
+                                                            </td>
                                                         </tr>
+                                                        
 
                                                     </tbody>
                                                 </table>
                                             </div><!-- end table-responsive -->
                                         </div><!-- end recent-activity -->
+                                        
                                     </div><!-- end columns -->
                                     
                                 </div><!-- end row -->

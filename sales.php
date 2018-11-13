@@ -4,7 +4,7 @@
         <title>Admin Dashboard</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+         <link rel="icon" href="images/download.png" type="image/x-icon">
         
         <!-- Google Fonts -->   
         <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
@@ -158,7 +158,8 @@
                                 
                                     <div class="col-xs-12 col-sm-2 col-md-2 dashboard-nav">
                                         <ul class="nav nav-tabs nav-stacked text-center">
-                                            <li><a href="dashboard.php"><span><i class="fa fa-file"></i></span>Reservation</a></li>
+                                            <li><a href="inquiry.php"><span><i class="fa fa-vcard-o"></i></span>Inquiry</a></li>
+                                            <li><a href="reservation.php"><span><i class="fa fa-file"></i></span>Reservation</a></li>
                                             <li><a href="accomodation.php"><span><i class="fa fa-briefcase"></i></span>Accomodation</a></li>
                                             <li><a href="payment.php"><span><i class="fa fa-dollar"></i></span>Payment</a></li>
                                             <li class="active"><a href="#"><span><i class="fa fa-line-chart"></i></span>Sales</a></li>
@@ -174,20 +175,6 @@
                                                 <option>HRTSC</option>
                                                 <option>TLSC</option>
                                             </select>
-                                        </div>
-
-                                        <div class="form-group">
-
-                                         <p>From</p>
-                                        <input type="date" class="form-control dpd2" required/>
-
-                                        </div>
-
-                                        <div class="form-group">
-
-                                        <p>To</p>
-                                        <input type="date" class="form-control dpd2" required/>
-
                                         </div>
                                         </form>   
                                         <!--SALES FORECAST -->
@@ -225,32 +212,6 @@
                                             </div><!-- end table-responsive -->
                                         </div><!-- end recent-activity -->
 
-                                        <!-- GET FORECAST SALES -->
-                                        <div class="dashboard-listing recent-activity">
-                                            <h3 class="dash-listing-heading">TO GET THE FORECAST SALES</h3>
-                                            <div class="table-responsive">
-                                                <table class="table table-hover">
-                                                    <tbody>
-                                                        <tr>
-                                                        <th>ROOM</th>
-                                                        <th>TARGET SALES NEXT MONTH</th>
-                                                        </tr>
-                                                        
-                                                        <tr>
-                                                            <td class="dash-list-text recent-ac-text">SUPERIOR</td>
-                                                            <td class="dash-list-text recent-ac-text">25000</td>
-                                                        </tr>
-                                                        
-                                                        <tr>
-                                                            <td class="dash-list-text recent-ac-text">DELUXE</td>
-                                                            <td class="dash-list-text recent-ac-text">35000</td>
-                                                        </tr>
-
-                                                    </tbody>
-                                                </table>
-                                            </div><!-- end table-responsive -->
-                                        </div><!-- end recent-activity -->
-
                                         <!-- GRAPH POWER BI -->
                                          <div class="dashboard-listing recent-activity">
                                             <h3 class="dash-listing-heading">FORECAST SALES FOR THE NEXT MONTH</h3>
@@ -263,6 +224,23 @@
                                                         </tr>
 
                                                         <!-- INPUT GRAPH HERE POWER BI -->
+
+                                                    </tbody>
+                                                </table>
+                                            </div><!-- end table-responsive -->
+                                        </div><!-- end recent-activity -->
+
+                                        <!--INTERPRETATION-->
+                                         <div class="dashboard-listing recent-activity">
+                                            <h3 class="dash-listing-heading">INTERPRETATION</h3>
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <tbody>
+
+                                                        <tr>
+                                                            <td class="dash-list-text recent-ac-text">INPUT INTERPRETATION HERE</td>
+                                                        </tr>
+
 
                                                     </tbody>
                                                 </table>

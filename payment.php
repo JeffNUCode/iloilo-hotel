@@ -4,7 +4,7 @@
         <title>Admin Dashboard</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+         <link rel="icon" href="images/download.png" type="image/x-icon">
         
         <!-- Google Fonts -->   
         <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
@@ -158,7 +158,8 @@
                                 
                                     <div class="col-xs-12 col-sm-2 col-md-2 dashboard-nav">
                                         <ul class="nav nav-tabs nav-stacked text-center">
-                                            <li><a href="dashboard.php"><span><i class="fa fa-file"></i></span>Reservation</a></li>
+                                            <li><a href="inquiry.php"><span><i class="fa fa-vcard-o"></i></span>Inquiry</a></li>
+                                            <li><a href="reservation.php"><span><i class="fa fa-file"></i></span>Reservation</a></li>
                                             <li><a href="accomodation.php"><span><i class="fa fa-briefcase"></i></span>Accomodation</a></li>
                                             <li class="active"><a href="#"><span><i class="fa fa-dollar"></i></span>Payment</a></li>
                                             <li><a href="sales.php"><span><i class="fa fa-line-chart"></i></span>Sales</a></li>
@@ -178,14 +179,7 @@
 
                                         <div class="form-group">
 
-                                         <p>From</p>
-                                        <input type="date" class="form-control dpd2" required/>
-
-                                        </div>
-
-                                        <div class="form-group">
-
-                                        <p>To</p>
+                                         <p>Date</p>
                                         <input type="date" class="form-control dpd2" required/>
 
                                         </div>

@@ -233,7 +233,7 @@
 
                                                 <h3> Your booking details and bill</h3>
                                             <input type="checkbox" id="check02" name="checkbox"/>
-                                            <label for="check02"><span><i class="fa fa-check"></i></span>By continuing, you are agree to the <a href="before-you-fly.php">Hotel Policies, Terms and Conditions.</a></label>
+                                            <label for="check02"><span><i class="fa fa-check"></i></span>By continuing, you are agree to the <a href="hotel-policy.php">Hotel Policies, Terms and Conditions.</a></label>
                                                 <br><br>
                                                 <a href="#" class="btn btn-orange">Print Details</a>
                                         </div>                        
