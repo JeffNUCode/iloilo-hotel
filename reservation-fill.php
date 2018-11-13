@@ -158,68 +158,55 @@
                                 
                                 	<div class="col-xs-12 col-sm-2 col-md-2 dashboard-nav">
                                 		<ul class="nav nav-tabs nav-stacked text-center">
-                                             <li><a href="dashboard.php"><span><i class="fa fa-reply"></i></span>Back</a></li>
-                                            <li><a href="accomodation.php"><span><i class="fa fa-briefcase"></i></span>Accomodation</a></li>
-                                            <li><a href="sales.php"><span><i class="fa fa-line-chart"></i></span>Sales</a></li>
-                                            <li class="active"><a href="#"><span><i class="fa fa-line-chart"></i></span>Reservation</a></li>
+                                            <li><a href="inquiry.php"><span><i class="fa fa-vcard-o"></i></span>Inquiry</a></li>
+                                    		<li class="active"><a href="#"><span><i class="fa fa-file"></i></span>Reservation</a></li>
+                                        	<li><a href="accomodation.php"><span><i class="fa fa-briefcase"></i></span>Reports</a></li>
                                         </ul>
                                     </div><!-- end columns -->
                                     
                                     <div class="col-xs-12 col-sm-10 col-md-10 dashboard-content">
-                                		<h2 class="dash-content-title">RESERVATION</h2>
+                                          <form>
+                                            <h2 class="dash-content-title">Reservation</h2>
                                         <form>
+                                        <div class="form-group">
+
+                                         <p>Check in</p>
+                                        <input type="date" class="form-control dpd2" required/>
+
+                                        </div>
+
+                                        <div class="form-group">
+
+                                         <p>Check out</p>
+                                        <input type="date" class="form-control dpd2" required/>
+
+                                        </div>
+
+                                        <p>Number of Adults</p>
                                         <div class="form-group right-icon">
                                             <select class="form-control">
-                                                <option selected>HOTELS</option>
-                                                <option>HRTSC</option>
-                                                <option>TLSC</option>
+                                                <option selected>Adults</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
                                             </select>
                                         </div>
-                                        <div class="form-group">
-                                        <input type="date" class="form-control dpd2" required/>
-                                        <p>All reservations will be displayed on the given date</p>
+
+                                        <p>Number of Children</p>
+                                         <div class="form-group right-icon">
+                                            <select class="form-control">
+                                                <option selected>Children</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
                                         </div>
-                                        </form>   
-                                        
-                                        <div class="dashboard-listing recent-activity">
-                                        	<h3 class="dash-listing-heading">HOTEL NAME DEPENDE SA PINILI NG ADMIN SA COMBO BOX</h3>
-                                            <div class="table-responsive">
-                                                <table class="table table-hover">
-                                                    <tbody>
-                                                        
-                                                        <!-- Search Bar -->
-                                                        <div class="input-group">
-                                                          <input type="text" class="form-control" placeholder="Search reservation number here...." />
-                                                                <span class="input-group-btn"><button type="submit" class="btn"><span>
-                                                                <i class="fa fa-search"></i>
-                                                            </span>
-                                                        </button>
-                                                    </span>
-                                                </div><!--end search bar -->
 
-                                                        <tr>
-                                                        <th>CUSTOMER NAME</th>
-                                                        <th>HOTEL ROOMS</th>
-                                                        <th>REMARKS</th>
-                                                        </tr>
-                                                        
-                                                        <tr>
-                                                            <td class="dash-list-text recent-ac-text">KATE PANGAN</td>
-                                                            <td class="dash-list-text recent-ac-text">HRTSC ROOM ONE</td>
-                                                            <td class="dash-list-text recent-ac-text"> 
-                                                                <select class="form-control">
-                                                                     <option selected>REMARKS</option>
-                                                                     <option>WAITING FOR PAYMENT</option>
-                                                                     <option>CONFIRMED</option>
-                                                                </select>
-                                                            </td>
-                                                        </tr>
-                                                        
+                                        <br>
+                                        <a href="#" data-toggle="modal"><button class="btn btn-orange btn-block">Proceed</button></a>
 
-                                                    </tbody>
-                                                </table>
-                                            </div><!-- end table-responsive -->
-                                        </div><!-- end recent-activity -->
+                                        <br><br><br><br><br><br>
+                                        </form>  
                                         
                                     </div><!-- end columns -->
                                     

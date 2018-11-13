@@ -158,11 +158,10 @@
                                 
                                     <div class="col-xs-12 col-sm-2 col-md-2 dashboard-nav">
                                         <ul class="nav nav-tabs nav-stacked text-center">
-                                            <li><a href="inquiry.php"><span><i class="fa fa-vcard-o"></i></span>Inquiry</a></li>
-                                            <li><a href="reservation.php"><span><i class="fa fa-file"></i></span>Reservation</a></li>
+                                            <li><a href="dashboard.php"><span><i class="fa fa-reply"></i></span>Back</a></li>
                                             <li class="active"><a href="#"><span><i class="fa fa-briefcase"></i></span>Accomodation</a></li>
-                                            <li><a href="payment.php"><span><i class="fa fa-dollar"></i></span>Payment</a></li>
                                             <li><a href="sales.php"><span><i class="fa fa-line-chart"></i></span>Sales</a></li>
+                                            <li><a href="reservation.php"><span><i class="fa fa-line-chart"></i></span>Reservation</a></li>
                                         </ul>
                                     </div><!-- end columns -->
                                     

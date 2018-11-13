@@ -4,7 +4,7 @@
         <title>Admin Dashboard</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+         <link rel="icon" href="images/download.png" type="image/x-icon">
         
         <!-- Google Fonts -->	
         <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
@@ -158,89 +158,26 @@
                                 
                                 	<div class="col-xs-12 col-sm-2 col-md-2 dashboard-nav">
                                 		<ul class="nav nav-tabs nav-stacked text-center">
-                                    		<li class="active"><a href="#"><span><i class="fa fa-file"></i></span>Reservation</a></li>
-                                        	<li><a href="accomodation.php"><span><i class="fa fa-briefcase"></i></span>Accomodation</a></li>
-                                            <li><a href="payment.php"><span><i class="fa fa-dollar"></i></span>Payment</a></li>
-                                            <li><a href="sales.php"><span><i class="fa fa-line-chart"></i></span>Sales</a></li>
+                                            <li><a href="inquiry.php"><span><i class="fa fa-vcard-o"></i></span>Inquiry</a></li>
+                                    		<li><a href="reservation-fill.php"><span><i class="fa fa-file"></i></span>Reservation</a></li>
+                                        	<li><a href="accomodation.php"><span><i class="fa fa-pencil-square-o"></i></span>Reports</a></li>
                                         </ul>
                                     </div><!-- end columns -->
                                     
                                     <div class="col-xs-12 col-sm-10 col-md-10 dashboard-content">
-                                		<h2 class="dash-content-title">RESERVATION</h2>
-                                        <form>
-                                        <div class="form-group">
-                                        <input type="date" class="form-control dpd2" required/>
-                                        <p>All reservations will be displayed on the given date</p>
+                                          <form>
+                                          <br><br>
+                                          <h3 class="dash-listing-heading">Hello there admin!</h3>
+                                          <br><br>
+                                          <div class="form-group right-icon">
+                                            <select class="form-control">
+                                                <option selected>HOTELS</option>
+                                                <option>HRTSC</option>
+                                                <option>TLSC</option>
+                                            </select>
                                         </div>
-                                        </form>   
-                                        
-                                        <div class="dashboard-listing recent-activity">
-                                        	<h3 class="dash-listing-heading">HOTEL AND RESTAURANT TECHNOLOGY SERVICE CENTER</h3>
-                                            <div class="table-responsive">
-                                                <table class="table table-hover">
-                                                    <tbody>
-                                                        <tr>
-                                                        <th>ROOM</th>
-                                                        <th>CONFIRMED</th>
-                                                        <th>RESERVED</th>
-                                                        </tr>
-                                                        
-                                                        <tr>
-                                                            <td class="dash-list-text recent-ac-text">DELUXE</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                        </tr>
-                                                        
-                                                        <tr>
-                                                            <td class="dash-list-text recent-ac-text">SUPERIOR</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                        </tr>
-                                                        
-                                                        <tr>
-                                                            <td class="dash-list-text recent-ac-text">CONFERENCE</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                        </tr>
 
-                                                    </tbody>
-                                                </table>
-                                            </div><!-- end table-responsive -->
-                                        </div><!-- end recent-activity -->
-                                        
-                                         <div class="dashboard-listing recent-activity">
-                                            <h3 class="dash-listing-heading">TECHNOLOGY AND LIVELIHOOD SERVICE CENTER</h3>
-                                            <div class="table-responsive">
-                                                <table class="table table-hover">
-                                                    <tbody>
-                                                        <tr>
-                                                        <th>Room</th>
-                                                        <th>Confirmed</th>
-                                                        <th>Reserved</th>
-                                                        </tr>
-                                                        
-                                                        <tr>
-                                                            <td class="dash-list-text recent-ac-text">DELUXE</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                        </tr>
-                                                        
-                                                        <tr>
-                                                            <td class="dash-list-text recent-ac-text">SUPERIOR</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                        </tr>
-                                                        
-                                                        <tr>
-                                                            <td class="dash-list-text recent-ac-text">CONFERENCE</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                            <td class="dash-list-text recent-ac-text">1</td>
-                                                        </tr>
-
-                                                    </tbody>
-                                                </table>
-                                            </div><!-- end table-responsive -->
-                                        </div><!-- end recent-activity -->
+                                        </form>  
                                     </div><!-- end columns -->
                                     
                                 </div><!-- end row -->

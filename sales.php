@@ -158,16 +158,15 @@
                                 
                                     <div class="col-xs-12 col-sm-2 col-md-2 dashboard-nav">
                                         <ul class="nav nav-tabs nav-stacked text-center">
-                                            <li><a href="inquiry.php"><span><i class="fa fa-vcard-o"></i></span>Inquiry</a></li>
-                                            <li><a href="reservation.php"><span><i class="fa fa-file"></i></span>Reservation</a></li>
+                                             <li><a href="dashboard.php"><span><i class="fa fa-reply"></i></span>Back</a></li>
                                             <li><a href="accomodation.php"><span><i class="fa fa-briefcase"></i></span>Accomodation</a></li>
-                                            <li><a href="payment.php"><span><i class="fa fa-dollar"></i></span>Payment</a></li>
                                             <li class="active"><a href="#"><span><i class="fa fa-line-chart"></i></span>Sales</a></li>
+                                            <li><a href="reservation.php"><span><i class="fa fa-line-chart"></i></span>Reservation</a></li>
                                         </ul>
                                     </div><!-- end columns -->
                                     
                                    <div class="col-xs-12 col-sm-10 col-md-10 dashboard-content">
-                                        <h2 class="dash-content-title">PAYMENT</h2>
+                                        <h2 class="dash-content-title">SALES</h2>
                                         <form>
                                           <div class="form-group right-icon">
                                             <select class="form-control">
